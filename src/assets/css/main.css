@@ -1,0 +1,49 @@
+@import "tailwind.css";
+@import "icons.css";
+
+@font-face {
+  font-family: Pelak;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Pelak-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Pelak;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Pelak-Medium.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Pelak;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Pelak-SemiBold.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Pelak;
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/Pelak-ExtraBold.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Pelak;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Pelak-Black.ttf) format("truetype")
+}
+
+body {
+  font-family: Pelak, Arial, sans-serif;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-size: 16px;
+  direction: rtl;
+  text-align: right;
+  scroll-behavior: smooth;
+  background-color: rgba(59, 130, 246, 0.2);
+  overflow-x: hidden;
+}
